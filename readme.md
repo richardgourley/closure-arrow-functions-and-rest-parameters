@@ -1,4 +1,4 @@
-##CLOSURE, ARROW FUNCTIONS AND REST PARAMETERS
+# CLOSURE, ARROW FUNCTIONS AND REST PARAMETERS
 
 This is a Javascript example with some fairly advanced topics for intermediate level or above Javascript students.
 
