@@ -1,11 +1,11 @@
 
 //ARROW FUNCTIONS
-//Line * is an example of arrow functions in use.  We could have written it as:
+//Line 5 is an example of arrow functions in use.  We could have written it as:
 // let prepareMessage = function(name, res){.....}
 let prepareMessage = (name, res) => {
     //CLOSURE
-    //In line * we set an inner function.  The inner function can be called later on our script (see below).
-    //Line * also has another example of arrow functions in use.  Could have been written as: return function(){....}
+    //In line 9 we set an inner function.  The inner function can be called later on our script (see line 40).
+    //Line 9 also has another example of arrow functions in use.  Could have been written as: return function(){....}
     return () => {
         //TERNARY OPERATOR - check if the score is over 75 or not, assign var to "pass" or "didn't pass".
         let message = res>75 ? "passed" : "didn't pass";
@@ -36,7 +36,7 @@ let printResults = function(...theArgs){
 }
 
 //Pass in our functions 'dave', 'daphne', 'john'.  
-//When printResults invokes the above functions, the INNER function of prepareMesaage will be invoked.
+//When printResults invokes the above functions, the INNER function (see line 9) of prepareMesaage will be invoked.
 printResults(dave, daphne, john);
 
 //OUTPUT
